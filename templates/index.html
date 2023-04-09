@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CricGod</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
+
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../static/css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="../static/css/templatemo-festava-live.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../static/popupstyle.css">
+
+    <!--
+
+TemplateMo 583 Festava Live
+
+https://templatemo.com/tm-583-festava-live
+
+-->
+<meta name="keywords" content="Colorlib Templates">
+
+<!-- Title Page-->
+<title>Au Register Forms by Colorlib</title>
+
+<!-- Icons font CSS-->
+<link href="../static/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+<link href="../static/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+<!-- Font special for pages-->
+<!-- <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> -->
+
+<!-- Vendor CSS-->
+<link href="../static/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+<link href="../static/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+<!-- Main CSS-->
+<link href="../static/css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+
+    <main>
+
+        <header class="site-header">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12 d-flex flex-wrap">
+                        <p class="d-flex me-4 mb-0">
+                            <i class="bi-person custom-icon me-2"></i>
+                            <strong class="text-dark">Welcome to CricGod - Your Favorite Cricket Score Predictor</strong>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="{{ url_for('index') }}">
+                    CricGod
+                </a>
+
+                <!-- <a href="ticket.html" class="btn custom-btn d-lg-none ms-auto me-4">Predict score</a> -->
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_1">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_2">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_3">Contact</a>
+                        </li>
+                    </ul>
+
+                    <a href="#section_4" class="btn custom-btn d-lg-block d-none">Predict Score</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="hero-section" id="section_1">
+            <div class="section-overlay"></div>
+
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="row">
+
+                    <div class="col-12 mt-auto mb-5 text-center">
+                        <small>Team 4A Presents ...</small>
+
+                        <h1 class="text-white mb-5">T20 Cricket Score Prediction Using Machine Learning</h1>
+
+                        <a class="btn custom-btn smoothscroll" href="#section_2">Let's begin</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-wrap">
+                <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                    <source src="../static/v1.mp4" type="video/mp4">
+
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+
+        <section class="about-section section-padding" id="section_2">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
+                        <div class="services-info">
+                            <h2 class="text-white mb-4">About CricGod</h2>
+
+                            <p class="text-white">T20 cricket may be defined as a short cricket match limited to 20 overs. Score prediction in cricket is based on the run rate till the present over. But this doesn't always give accurate results.</p>
+
+
+                            <p class="text-white">T20 cricket is a dynamic game and anyone can turn the tables on anyone, anytime. 
+So, this leads to inaccurate prediction and analysis by the National cricket team analysts and coaches.
+Here we are going to predict the score of a T20 cricket match using different machine learning algorithms.
+</p>
+
+                            <p class="text-white">Please tell your friends about our website. Thank you.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <div class="about-text-wrap">
+                            <img src="../static/images/i3.jpg" class="about-image img-fluid" width="500" height="500">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact-section section-padding" id="section_3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-12 mx-auto">
+                        <h2 class="text-center mb-4">Interested? Let's talk</h2>
+
+                        <nav class="d-flex justify-content-center">
+                            <div class="nav nav-tabs align-items-baseline justify-content-center" id="nav-tab"
+                                role="tablist">
+                                <button class="nav-link active" id="nav-ContactForm-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-ContactForm" type="button" role="tab"
+                                    aria-controls="nav-ContactForm" aria-selected="false">
+                                    <h5>Contact Form</h5>
+                                </button>
+                            </div>
+                        </nav>
+
+                        <div class="tab-content shadow-lg mt-5" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-ContactForm" role="tabpanel"
+                                aria-labelledby="nav-ContactForm-tab">
+                                <form class="custom-form contact-form mb-5 mb-lg-0" action="{{ url_for('contact') }}" method="post"
+                                    role="form">
+                                    <div class="contact-form-body">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <input type="text" name="name" id="name"
+                                                    class="form-control" placeholder="Full name" required>
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <input type="email" name="email" id="email"
+                                                    pattern="[^ @]*@[^ @]*" class="form-control"
+                                                    placeholder="Email address" required>
+                                            </div>
+                                        </div>
+
+                                        <input type="tel" name="phone" id="phone"
+                                            class="form-control" placeholder="Phone no"  pattern="[0-9]{3}[0-9]{3}[0-9]{4}" maxlength="12" title="Enter 10 digits phone number" required>
+
+                                        <textarea name="message" rows="3" class="form-control"
+                                            id="message" placeholder="Message"></textarea>
+
+                                        <div class="col-lg-4 col-md-10 col-8 mx-auto">
+                                            <button type="submit" class="form-control">Send message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>        
+        
+    
+    <section class="artists-section section-padding" id="section_4">
+            <div class="container">
+                <div class="page-wrapper bg-gra-01 p-t-180 p-b-100 font-poppins">
+                    <div class="wrapper wrapper--w780">
+                        <div class="card card-3">
+                            <div class="card-heading"></div>
+                            <div class="card-body">
+                                <h2 class="title">Enter Ongoing Match Details</h2>
+                                <form method="POST" id="form" name="lord" action="/pred">
+                                    <div class="input-group">
+                                        <div class="rs-select2 js-select-simple select--no-search">
+                                            <label for="bat" style="font-size: 16px; color: white;">Batting Team:</label>
+                                            <select name="bat" id="bat" style="background-color: black; color: white; border-radius: 10px; width: 300px; height: 40px;" required >
+                                                
+                                                <option value="Australia" selected>Australia</option>
+                                                <option value="India">India</option>
+                                                <option value="Bangladesh">Bangladesh</option>
+                                                <option value="New Zealand">New Zealand</option>
+                                                <option value="South Africa">South Africa</option>
+                                                <option value="England">England</option>
+                                                <option value="Pakistan">Pakistan</option>
+                                                <option value="West Indies">West Indies</option>
+                                                <option value="Afghanistan">Afghanistan</option>
+                                                <option value="Pakistan">Pakistan</option>
+                                                 <option value="Sri Lanka">Sri Lanka</option>
+                                            </select>
+                                            <div class="select-dropdown"></div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group">
+                                        <div class="rs-select2 js-select-simple select--no-search">
+                                            <label for="bowl" style="font-size: 16px; color: white;">Bowling Team:</label>
+                                            <select name="bowl" id="bowl" style="background-color: black; color: white; border-radius: 10px; width: 300px; height: 40px;" required>
+                                                
+                                                <option value="Australia">Australia</option>
+                                                <option value="India" selected>India</option>
+                                                <option value="Bangladesh">Bangladesh</option>
+                                                <option value="New Zealand">New Zealand</option>
+                                                <option value="South Africa">South Africa</option>
+                                                <option value="England">England</option>
+                                                <option value="Pakistan">Pakistan</option>
+                                                <option value="West Indies">West Indies</option>
+                                                <option value="Afghanistan">Afghanistan</option>
+                                                <option value="Pakistan">Pakistan</option>
+                                                 <option value="Sri Lanka">Sri Lanka</option>
+                                            </select>
+                                            <div class="select-dropdown"></div>
+                                        </div>
+                                    </div>
+                                                                      
+                                    
+                                    
+                        
+
+                        <script> 
+                                        // Get references to the dropdown menus
+                                   // Get references to the dropdown menus
+var dropdown1 = document.getElementById("bat");
+var dropdown2 = document.getElementById("bowl");
+
+// Listen for changes in the selected option of the first dropdown menu
+dropdown1.addEventListener("change", function() {
+  // Get the selected option
+  var selectedOption = dropdown1.value;
+
+  // Loop through the options in the second dropdown menu
+  for (var i = 0; i < dropdown2.options.length; i++) {
+    var option = dropdown2.options[i];
+
+    // Enable all options in the second dropdown menu
+    option.disabled = false;
+
+    // Disable the option if it matches the selected option from the first dropdown menu
+    if (option.value === selectedOption) {
+      option.disabled = true;
+    }
+  }
+
+  // Loop through the options in the first dropdown menu
+  for (var i = 0; i < dropdown1.options.length; i++) {
+    var option = dropdown1.options[i];
+
+    // Enable all options in the first dropdown menu
+    option.disabled = false;
+
+    // Disable the option if it matches the selected option from the second dropdown menu
+    if (option.value === dropdown2.value) {
+      option.disabled = true;
+    }
+  }
+});
+
+// Listen for changes in the selected option of the second dropdown menu
+dropdown2.addEventListener("change", function() {
+  // Get the selected option
+  var selectedOption = dropdown2.value;
+
+  // Loop through the options in the first dropdown menu
+  for (var i = 0; i < dropdown1.options.length; i++) {
+    var option = dropdown1.options[i];
+
+    // Enable all options in the first dropdown menu
+    option.disabled = false;
+
+    // Disable the option if it matches the selected option from the second dropdown menu
+    if (option.value === selectedOption) {
+      option.disabled = true;
+    }
+  }
+
+  // Loop through the options in the second dropdown menu
+  for (var i = 0; i < dropdown2.options.length; i++) {
+    var option = dropdown2.options[i];
+
+    // Enable all options in the second dropdown menu
+    option.disabled = false;
+
+    // Disable the option if it matches the selected option from the first dropdown menu
+    if (option.value === dropdown1.value) {
+      option.disabled = true;
+    }
+  }
+});
+
+// Listen for the form submission
+var form = document.getElementById("lord");
+form.addEventListener("submit", function() {
+  // Enable all options in both dropdown menus before submitting the form
+  for (var i = 0; i < dropdown1.options.length; i++) {
+    dropdown1.options[i].disabled = false;
+  }
+  for (var i = 0; i < dropdown2.options.length; i++) {
+    dropdown2.options[i].disabled = false;
+  }
+});
+
+                                    
+                        </script>
+                                    
+
+
+                                    <div class="input-group">
+                                        <div class="rs-select2 js-select-simple select--no-search">
+                                            <label for="city" style="font-size: 16px; color: white;">City:</label>
+                                            <select name="city" id="city" style="background-color: black; color: white; border-radius: 10px; width: 300px; height: 40px;" required>
+                                            
+                                                <option value="Abu Dhabi"> Abu Dhabi </option>
+                                                <option value="Adelaide"> Adelaide </option>
+                                                <option value="Auckland"> Auckland </option>
+                                                <option value="Bangalore"> Bangalore </option>
+                                                <option value="Barbados"> Barbados </option>
+                                                <option value="Cape Town"> Cape Town </option>
+                                                <option value="Cardiff"> Cardiff </option>
+                                                <option value="Centurion"> Centurion </option>
+                                                <option value="Chandigarh"> Chandigarh </option>
+                                                <option value="Chittagong"> Chittagong </option>
+                                                <option value="Christchurch"> Christchurch </option>
+                                                <option value="Colombo"> Colombo </option>
+                                                <option value="Delhi"> Delhi </option>
+                                                <option value="Dubai"> Dubai </option>
+                                                <option value="Durban"> Durban </option>
+                                                <option value="Hamilton"> Hamilton </option>
+                                                <option value="Johannesburg"> Johannesburg </option>
+                                                <option value="Kolkata"> Kolkata </option>
+                                                <option value="Lahore"> Lahore </option>
+                                                <option value="Lauderhill"> Lauderhill </option>
+                                                <option value="London"> London </option>
+                                                <option value="Manchester"> Manchester </option>
+                                                <option value="Melbourne"> Melbourne </option>
+                                                <option value="Mirpur"> Mirpur </option>
+                                                <option value="Mount Maunganui"> Mount Maunganui </option>
+                                                <option value="Mumbai"> Mumbai </option>
+                                                <option value="Nagpur"> Nagpur </option>
+                                                <option value="Nottingham"> Nottingham </option>
+                                                <option value="Pallekele"> Pallekele </option>
+                                                <option value="Southampton"> Southampton </option>
+                                                <option value="St Kitts"> St Kitts </option>
+                                                <option value="St Lucia"> St Lucia </option>
+                                                <option value="Sydney"> Sydney </option>
+                                                <option value="Trinidad"> Trinidad </option>
+                                                <option value="Wellington"> Wellington </option>
+                                            </select>
+                                            <div class="select-dropdown"></div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group">
+                                        <input class="input--style-3" type="text" placeholder="Present score" name="Present score" pattern="[0-9]+"  title="Present score should be a numerical value" id="Present score" required>
+                                    </div>
+                                    <div class="input-group">
+                                        <input class="input--style-3" type="text" placeholder="Overs completed" name="Overs completed" pattern="[0-9]+" title="Overs completed should be a numerical value" id="Overs completed" required>
+                                    </div>
+                                    <div class="input-group">
+                                        <input class="input--style-3" type="text" placeholder="Wickets fallen" name="Wickets fallen" pattern="[0-9]+" title="Wickets fallen should be a numerical value" id="Wickets fallen" required>
+                                    </div>
+                                    <div class="input-group">
+                                        <input class="input--style-3" type="text" placeholder="No. of Batsmen/Allrounders left" name="No. of Batsmen/Allrounders left" pattern="[0-9]+" title="Should be a numerical value" id="Wickets fallen" required>
+                                    </div>
+                                    <div class="input-group">
+                                        <input class="input--style-3" type="text" placeholder="Runs scored in last 5 overs" name="Runs scored in last 5 overs" pattern="[0-9]+" title="Runs scored in last 5 overs should be a numerical value" id="Runs scored in last 5 overs" required>
+                                    </div>
+                                
+                                    <div class="p-t-10">
+                                        <!--<button class="btn btn--pill btn--green" type="submit">Submit</button>-->
+                                        <input type="submit" id="huehue" name="huehue" value="Predict" style="background: white;color:black;" class="tiger">
+                                        <!-- <a href="#popup" class="tiger">Submit</a> -->
+                                            <div id="popup" class="popup" >
+                                                    <a href="#" class="closex">&times;</a>
+                                                    <h2>PREDICTED SCORE</h2>
+                                                    <p>Run rate-10</p>
+                                                    <p>Algorithm-XG Boost</p>
+                                                    <p>Final predicted score-144</p>
+                                            </div>
+                                        <a href="#" class="close-popup"></a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Jquery JS-->
+                <script src="../static/vendor/jquery/jquery.min.js"></script>
+                <!-- Vendor JS-->
+                <!-- <script src="../static/vendor/select2/select2.min.js"></script> -->
+                <script src="../static/vendor/datepicker/moment.min.js"></script>
+                <script src="../static/vendor/datepicker/daterangepicker.js"></script>
+            
+                <!-- Main JS-->
+                <script src="../static/js/global.js"></script>
+            </div>
+        </section>
+    
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="site-footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12">
+                        <h2 class="text-white mb-lg-0">CricGod</h2>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12 mb-4 pb-2">
+                    <h5 class="site-footer-title mb-3">Links</h5>
+
+                    <ul class="site-footer-links">
+                        <li class="site-footer-link-item">
+                            <a href="#section_1" class="site-footer-link">Home</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="#section_2" class="site-footer-link">About</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="#section_3" class="site-footer-link">Contact</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="#section_4" class="site-footer-link">Predict Score</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                    <h5 class="site-footer-title mb-3">Have a question?</h5>
+
+                    <p class="text-white d-flex mb-1">
+                        <a href="tel: 090-080-0760" class="site-footer-link">
+                            8919085192
+                        </a>
+                    </p>
+
+                    <p class="text-white d-flex">
+                        <a href="mailto:hello@company.com" class="site-footer-link">
+                            sruthi.19.cse@anits.edu.in
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-11 mb-4 mb-lg-0 mb-md-0">
+                    <h5 class="site-footer-title mb-3">Location</h5>
+
+                    <p class="text-white d-flex mt-3 mb-2">
+                        Visakhapatnam</p>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        
+    </footer>
+
+    <!--
+
+T e m p l a t e M o
+
+-->
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/jquery.sticky.js"></script>
+    <script src="../static/js/click-scroll.js"></script>
+    <script src="../static/js/custom.js"></script>
+
+</body>
+
+</html>

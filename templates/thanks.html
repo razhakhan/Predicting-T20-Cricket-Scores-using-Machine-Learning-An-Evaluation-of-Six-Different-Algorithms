@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CricGod</title>
+  </head>
+  <body style="background-color: #f2f2f2;">
+    <div style="background-color: #4CAF50; color: white; padding: 10px; display: flex; justify-content: space-between;">
+      <h3>CricGod</h3>
+      <button onclick="location.href='{{ url_for('index') }}'" style="background-color: white; color: #4CAF50; border: none; padding: 10px 20px; border-radius: 5px;">HomePage</button>
+    </div>
+    <div style="text-align: center; padding-top: 50px;">
+      <h1>Thank you for contacting us {{name}}</h1>
+      <h2 style="color: #4CAF50;">We will get back to you soon ! </h2>
+      <button onclick="location.href='{{ url_for('index') }}'" style="background-color: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; margin-top: 20px;">Go Back to Home Page</button>
+    </div>
+  </body>
+</html>
