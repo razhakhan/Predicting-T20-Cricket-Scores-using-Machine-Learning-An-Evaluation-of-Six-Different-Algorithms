@@ -69,7 +69,7 @@ def contact():
         smtp.ehlo()
         smtp.starttls()
         smtp.ehlo()
-        smtp.login('razhagarrix@gmail.com', 'evisiuabbunyyxhe') # Replace with your email and password
+        smtp.login('razhagarrix@gmail.com', 'password') # Replace with your email and password
         smtp.send_message(msg)
 
     return render_template('thanks.html', name=name)
