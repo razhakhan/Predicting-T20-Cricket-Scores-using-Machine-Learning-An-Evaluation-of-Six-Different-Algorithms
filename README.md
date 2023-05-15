@@ -1,4 +1,4 @@
-# Predicting-T20-Cricket-Scores-using-Machine-Learning-An-Evaluation-of-Six-Different-Algorithms
+# Predicting T20 International Cricket Scores using Machine Learning: An Evaluation of Six Different Algorithms
 
 ## About the project
 
