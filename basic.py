@@ -9,7 +9,7 @@ from email.message import EmailMessage
 
 app = Flask(__name__)
 
-model = pickle.load(open('test20xgminmax.pkl', 'rb'))
+model = pickle.load(open('test20cb.pkl', 'rb'))
 
 @app.route('/')
 def index():
