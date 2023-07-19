@@ -13,7 +13,7 @@ factors that can impact the score prediction and utilize the available previous 
 
 [Click here](https://drive.google.com/file/d/1j8S93xEeD5j1QwJusLCAo-guhVVNG3DY/view?usp=sharing)
 
-## Predicted Scores Comparision of Algorithms
+## Predicted Scores Comparison of Algorithms
 
 ![download](https://github.com/razhakhan/Predicting-T20-Cricket-Scores-using-Machine-Learning-An-Evaluation-of-Six-Different-Algorithms/assets/65012840/ee8a4fb1-6a1a-47dd-a50b-b3fbc3e72726)
 ![download (1)](https://github.com/razhakhan/Predicting-T20-Cricket-Scores-using-Machine-Learning-An-Evaluation-of-Six-Different-Algorithms/assets/65012840/db5965ee-5aba-429e-a64a-8e17f94578df)
