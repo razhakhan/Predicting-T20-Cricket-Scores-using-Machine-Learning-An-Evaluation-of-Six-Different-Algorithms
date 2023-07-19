@@ -6,6 +6,8 @@ import xgboost
 from xgboost import XGBRegressor
 import smtplib
 from email.message import EmailMessage
+from catboost import CatBoostRegressor
+
 
 app = Flask(__name__)
 
