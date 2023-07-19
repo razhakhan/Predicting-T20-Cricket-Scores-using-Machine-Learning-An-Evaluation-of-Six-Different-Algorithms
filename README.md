@@ -19,6 +19,34 @@ factors that can impact the score prediction and utilize the available previous 
 ![download (1)](https://github.com/razhakhan/Predicting-T20-Cricket-Scores-using-Machine-Learning-An-Evaluation-of-Six-Different-Algorithms/assets/65012840/db5965ee-5aba-429e-a64a-8e17f94578df)
 ![download (2)](https://github.com/razhakhan/Predicting-T20-Cricket-Scores-using-Machine-Learning-An-Evaluation-of-Six-Different-Algorithms/assets/65012840/9b189f7f-8937-48d2-b4ce-69ecd2120a1f)
 
+### Dependencies
+
+* Install required libraries like pandas, numpy, flask, catboost etc. using pip
+* For Eg. 
+```
+pip install catboost
+```
+
+
+### Installing
+
+* Download this repo or clone it using git 'clone'
+
+### Executing program
+
+* Open the project folder where basic.py is present.
+* Create a virtual environment
+```
+python -m venv env
+```
+*fhx
+```
+python -m venv env
+```
+
+
+
+
 ## Web Portal Saples
 
 ![Screenshot (77)](https://github.com/razhakhan/Predicting-T20-Cricket-Scores-using-Machine-Learning-An-Evaluation-of-Six-Different-Algorithms/assets/65012840/f7b9aa71-e8c4-4d2b-ac7e-90c4cf4e5a68)
