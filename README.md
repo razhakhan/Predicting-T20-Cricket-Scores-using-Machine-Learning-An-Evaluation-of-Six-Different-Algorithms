@@ -21,14 +21,13 @@ factors that can impact the score prediction and utilize the available previous 
 
 ## Web Portal Saples
 
-
 ![Screenshot (77)](https://github.com/razhakhan/Predicting-T20-Cricket-Scores-using-Machine-Learning-An-Evaluation-of-Six-Different-Algorithms/assets/65012840/f7b9aa71-e8c4-4d2b-ac7e-90c4cf4e5a68)
 
 ![Screenshot (78)](https://github.com/razhakhan/Predicting-T20-Cricket-Scores-using-Machine-Learning-An-Evaluation-of-Six-Different-Algorithms/assets/65012840/215665cd-efc0-4913-a8fc-4f1a9f4c5338)
 
 ![Screenshot (80)](https://github.com/razhakhan/Predicting-T20-Cricket-Scores-using-Machine-Learning-An-Evaluation-of-Six-Different-Algorithms/assets/65012840/2829eb4c-07a2-4982-9dcd-16338fbe1c85)
 
-![Screenshot (81)](https://github.com/razhakhan/Predicting-T20-Cricket-Scores-using-Machine-Learning-An-Evaluation-of-Six-Different-Algorithms/assets/65012840/a627045a-469f-4734-a656-008bbf502c92)
+![Screenshot (81)](https://github.com/razhakhan/Predicting-T20-Cricket-Scores-using-Machine-Learning-An-Evaluation-of-Six-Different-Algorithms/assets/65012840/8f72d5e8-4122-47a3-be0d-116cd8951b27)
 
 ![Screenshot (79)](https://github.com/razhakhan/Predicting-T20-Cricket-Scores-using-Machine-Learning-An-Evaluation-of-Six-Different-Algorithms/assets/65012840/1b6242ed-730b-4f02-93b8-bc9036c2bba7)
 
