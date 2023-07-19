@@ -39,13 +39,21 @@ pip install catboost
 ```
 python -m venv env
 ```
-*fhx
+* Activate it
 ```
-python -m venv env
+source env/bin/activate    # For Linux/MacOS
+env\Scripts\activate.bat   # For Windows
 ```
-
-
-
+* Set the FLASK_APP environment variable to your application
+```
+export FLASK_APP=app.py    # For Linux/MacOS
+set FLASK_APP=app.py       # For Windows
+```
+* Run the Flask application
+```
+flask run
+```
+* You can now use the web portal from your browser
 
 ## Web Portal Saples
 
@@ -58,5 +66,10 @@ python -m venv env
 ![Screenshot (81)](https://github.com/razhakhan/Predicting-T20-Cricket-Scores-using-Machine-Learning-An-Evaluation-of-Six-Different-Algorithms/assets/65012840/8f72d5e8-4122-47a3-be0d-116cd8951b27)
 
 ![Screenshot (79)](https://github.com/razhakhan/Predicting-T20-Cricket-Scores-using-Machine-Learning-An-Evaluation-of-Six-Different-Algorithms/assets/65012840/1b6242ed-730b-4f02-93b8-bc9036c2bba7)
+
+## Contact
+
+Your Name - [@linkedin](https://www.linkedin.com/in/razhakhan/) - razhagarrix@gmail.com
+
 
 
