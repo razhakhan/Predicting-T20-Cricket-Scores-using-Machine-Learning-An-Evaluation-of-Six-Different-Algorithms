@@ -30,7 +30,7 @@ pip install catboost
 
 ### Installing
 
-* Download this repo or clone it using git 'clone'
+* Download this repo or clone it using 'git clone'
 
 ### Executing program
 
@@ -55,7 +55,7 @@ flask run
 ```
 * You can now use the web portal from your browser
 
-## Web Portal Saples
+## Web Portal Samples
 
 ![Screenshot (77)](https://github.com/razhakhan/Predicting-T20-Cricket-Scores-using-Machine-Learning-An-Evaluation-of-Six-Different-Algorithms/assets/65012840/f7b9aa71-e8c4-4d2b-ac7e-90c4cf4e5a68)
 
